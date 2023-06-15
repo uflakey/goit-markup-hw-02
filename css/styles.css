@@ -6,14 +6,27 @@
 --text-col: #434455;
 --team-bg-col: #F4F4FD;
 --whit-bg-col: #E5E5E5;
---portfolio-bt-col: #E7E9FC;
+--portfolio-btn-col: #E7E9FC;
 
 }
 body{
   font-family: Roboto, sans-serif;
   }
   /*Reset*/
-  
+  .list,
+  ul,
+  ol {
+    list-style: none;
+  }
+  .link,
+  a {text-decoration: none;
+     color: currentColor;
+  }
+  .btn,
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
 /*Header styles*/
 .header {}
 .heder-nav {}
@@ -39,8 +52,6 @@ body{
 .header-list {}
 .header-item {}
 .header-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -51,24 +62,17 @@ body{
 .header-address-list {}
 .header-address-item {}
 .header-address-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-col);
 }
-
 /*Section hero styles*/
-.section {
-  
-}
-.hero {background: var(--main-dark-col);
+.section-hero {
+background-color: var(--main-dark-col);
 }
 .hero-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -76,26 +80,21 @@ body{
     color: var(--whit-title-col);
 }
 .hero-btn {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--whit-title-col);
-    background: var(--accent-col);
+    background-color: var(--accent-col);
 }
 
 /*Section business styles*/
-.section {}
-.business {}
+.section-business {
+}
 .business-title {}
 .business-list {}
 .business-item {}
 .business-item-title {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -103,8 +102,6 @@ letter-spacing: 0.02em;
 color: var(--main-dark-col);
 }
 .business-item-text {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -113,17 +110,12 @@ color: var(--text-col);
 }
 
 /*Section doing styles*/
-.section {}
-.doing {}
+.section-doing {}
 .doing-title {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-text-align: center;
 letter-spacing: 0.02em;
-text-transform: capitalize;
 color: var(--main-dark-col);
 }
 .doing-list {}
@@ -131,48 +123,37 @@ color: var(--main-dark-col);
 .doing-img {}
 
 /*Section team styles*/
-.section {
-background: var(--team-bg-col)
+.section-team {
+background-color: var(--team-bg-col)
 }
-.team {}
 .team-title {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-text-align: center;
 letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--main-dark-col);
+
 }
 .team-list {}
 .team-item {}
 .team-img {}
 .team-item-title {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-dark-col);
 }
 .team-item-text {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--text-col);
 }
 
 /*Footer styles*/
 .footer {
-  background: var(--main-dark-col);
+background-color: var(--main-dark-col);
 }
 .footer-logo {}
 .footer-logo-web {
@@ -181,10 +162,7 @@ color: var(--text-col);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--accent-col);
 }
 .footer-logo-studio {
@@ -193,8 +171,50 @@ color: var(--text-col);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--team-bg-col);
+}
+.footer-text {
+font-style: Regular;
+font-size: 16px;
+line-height: 1.28;
+letter-spacing: 0.02em;
+color: var(--team-bg-col);
+}
+/*Section portfolio styles*/
+.main-portfolio {}
+
+.section-portfolio {}
+
+.portfolio-btn {
+font-style: Medium;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 4%;
+color: var(--accent-col);
+background-color: var(--portfolio-btn-col)
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-link {}
+
+.portfolio-img {}
+
+.portfolio-title {
+font-style: Medium;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 2%;
+color: var(--main-dark-col);
+}
+
+.portfolio-text {
+font-style: Regular;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 2%;
+color: var(--text-col);
 }
