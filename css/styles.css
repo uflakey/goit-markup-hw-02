@@ -1,15 +1,21 @@
+/*Common styles*/
 body{
   font-family: Roboto, Raleway, sans-serif;
   }
+  /*Reset*/
   ul,
   ol{
     list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: currentColor;
   }
   button{
     font-family: inherit;
     cursor: pointer;
   }
-
+/*Header styles*/
 .header {
 }
 .heder-nav {
@@ -84,6 +90,7 @@ color: #2E2F42;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    background: #4D5AE5;
 }
 
 
