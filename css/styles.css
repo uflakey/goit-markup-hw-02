@@ -82,7 +82,7 @@ background-color: var(--main-dark-col);
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center
+    text-align: center;
     color: var(--whit-title-col);
 }
 .hero-btn {
@@ -93,7 +93,9 @@ background-color: var(--main-dark-col);
     color: var(--whit-title-col);
     background-color: var(--accent-col);
 }
-.hero-btn:hover,
+.hero-btn:hover {
+background-color: var(--accent-col)
+}
 .hero-btn:focus {
 background-color:var(--accent-col)
 }
@@ -206,16 +208,15 @@ color: var(--team-bg-col);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-color: var(--accent-col);
-background-color: var(--portfolio-btn-col);
-
-
-
+    color: var(--accent-col);
+    background-color: var(--portfolio-btn-col);
 }
-
-
+.portfolio-btn:hover {
+background-color: var(--accent-col)
 }
-
+.portfolio-btn:focus {
+background-color: var(--accent-col)
+}
 .portfolio-list {}
 
 .portfolio-item {}
