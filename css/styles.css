@@ -96,10 +96,10 @@ background-color: var(--main-dark-col);
     background-color: var(--accent-col);
 }
 .hero-btn:hover {
-background-color: var(--accent-col)
+background-color: #404BBF
 }
 .hero-btn:focus {
-background-color:var(--accent-col)
+background-color: #404BBF
 }
 /*Section business styles*/
 .section-business {
@@ -139,7 +139,7 @@ color: var(--main-dark-col);
 
 /*Section team styles*/
 .section-team {
-background-color: var(--team-bg-col)
+background-color: var(--team-bg-col);
 }
 .team-title {
 font-weight: 700;
