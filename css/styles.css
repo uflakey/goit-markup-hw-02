@@ -10,7 +10,10 @@
 
 }
 body{
-  font-family: Roboto, sans-serif;
+font-family: Roboto, sans-serif;
+color: #434455;
+background-color: var(--whit-title-col)
+
   }
   /*Reset*/
   .list,
@@ -31,13 +34,14 @@ body{
 .header {}
 .heder-nav {}
 .header-logo {}
-.header-logo-web {
+.header-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--accent-col);
 }
 .header-logo-studio {
@@ -47,6 +51,7 @@ body{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--main-dark-col);
 }
 .header-list {}
@@ -187,12 +192,15 @@ color: var(--team-bg-col);
 .section-portfolio {}
 
 .portfolio-btn {
-font-style: Medium;
-font-size: 16px;
-line-height: 1.50;
-letter-spacing: 4%;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 color: var(--accent-col);
-background-color: var(--portfolio-btn-col)
+background-color: var(--portfolio-btn-col);
+
 }
 
 .portfolio-list {}
