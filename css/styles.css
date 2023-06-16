@@ -82,6 +82,7 @@ background-color: var(--main-dark-col);
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center
     color: var(--whit-title-col);
 }
 .hero-btn {
@@ -92,7 +93,10 @@ background-color: var(--main-dark-col);
     color: var(--whit-title-col);
     background-color: var(--accent-col);
 }
-
+.hero-btn:hover,
+.hero-btn:focus {
+background-color:var(--accent-col)
+}
 /*Section business styles*/
 .section-business {
 }
@@ -120,6 +124,8 @@ color: var(--text-col);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
 letter-spacing: 0.02em;
 color: var(--main-dark-col);
 }
@@ -135,7 +141,10 @@ background-color: var(--team-bg-col)
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
 letter-spacing: 0.02em;
+color: var(--main-dark-col);
 
 }
 .team-list {}
@@ -160,8 +169,7 @@ color: var(--text-col);
 .footer {
 background-color: var(--main-dark-col);
 }
-.footer-logo {}
-.footer-logo-web {
+.footer-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -200,6 +208,11 @@ color: var(--team-bg-col);
     letter-spacing: 0.04em;
 color: var(--accent-col);
 background-color: var(--portfolio-btn-col);
+
+
+
+}
+
 
 }
 
