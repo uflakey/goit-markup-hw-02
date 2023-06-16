@@ -63,7 +63,9 @@ background-color: var(--whit-title-col)
     letter-spacing: 0.02em;
     color: var(--main-dark-col);
 }
-.header-address {}
+.header-address {
+font-style: normal;
+}
 .header-address-list {}
 .header-address-item {}
 .header-address-link {
