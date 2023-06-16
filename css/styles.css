@@ -166,8 +166,9 @@ color: var(--main-dark-col);
 }
 .team-list {}
 .team-item {}
+
 .team-img {
-background-color: var(--whit-title-col);
+background-color: #FFFFFF;
 }
 .team-item-title {
 font-weight: 500;
@@ -175,7 +176,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--main-dark-col);
-background-color: var(--whit-title-col);
+background-color: #FFFFFF;
 }
 .team-item-text {
 font-weight: 400;
@@ -183,7 +184,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-col);
-background-color: var(--whit-title-col);
+background-color: #FFFFFF;
 }
 
 /*Footer styles*/
@@ -229,13 +230,20 @@ color: var(--team-bg-col);
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: var(--accent-col);
-
+    background-color: var(--team-bg-col);
 }
 .portfolio-btn:hover {
 background-color: #404BBF;
 }
 .portfolio-btn:focus {
 background-color: #404BBF;
+}
+
+.btn-text:hover {
+color: #FFFFFF;
+}
+.btn-text:focus {
+color: #FFFFFF;
 }
 .portfolio-list {}
 
