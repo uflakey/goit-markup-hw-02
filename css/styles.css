@@ -68,7 +68,7 @@ color: #404BBF;
 }
 .header-link:focus{
     color: #404BBF;
-    
+
 }
 .header-address {
 font-style: normal;
@@ -175,7 +175,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--main-dark-col);
-background-color:  var(--whit-title-col);
+background-color: var(--whit-title-col);
 }
 .team-item-text {
 font-weight: 400;
@@ -222,20 +222,20 @@ color: var(--team-bg-col);
 .section-portfolio {}
 
 .portfolio-btn {
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.50;
     letter-spacing: 0.04em;
     color: var(--accent-col);
-    background-color: var(--team-bg-col);
+
 }
 .portfolio-btn:hover {
-background-color: var(--accent-col);
+background-color: #404BBF;
 }
 .portfolio-btn:focus {
-background-color: var(--accent-col);
+background-color: #404BBF;
 }
 .portfolio-list {}
 
