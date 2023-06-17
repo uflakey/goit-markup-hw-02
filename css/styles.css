@@ -162,13 +162,10 @@ text-align: center;
 text-transform: capitalize;
 letter-spacing: 0.02em;
 color: var(--main-dark-col);
-
 }
 .team-list {}
 .team-item {}
-.team-img {
-background-color: #FFFFFF;
-}
+.team-img {}
 .team-item-title {
 font-weight: 500;
 font-size: 20px;
